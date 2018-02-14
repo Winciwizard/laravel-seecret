@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class User extends Model implements Authenticatable
 {
-    use \Illuminate\Auth\Authenticatable;//Authentification necessaire pour l'utilisateur
+    use \Illuminate\Auth\Authenticatable;
     public function posts(){
-        return $this->hasMany('App\Post'); // Creation de jointure avec la méthode Post, identique a la base de donnée.
+        return $this->hasMany('App\Post');
     }
 }
