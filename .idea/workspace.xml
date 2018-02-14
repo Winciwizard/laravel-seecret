@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d6ec693-e948-446b-8fab-42e405980d30" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/seecretspot/public/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1208e31a-b2db-4f6c-990b-fd3a4d46bb56.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc4c26ac-716c-425b-a4fb-aeade56cb823.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a510258e-99eb-4c0f-96e6-53d2b3b1c370.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/a510258e-99eb-4c0f-96e6-53d2b3b1c370.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/seecretspot/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/seecretspot/app/Exceptions/Handler.php" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/seecretspot/app/User.php" afterPath="$PROJECT_DIR$/seecretspot/app/User.php" />
       <change beforePath="$PROJECT_DIR$/seecretspot/resources/views/dashboard.blade.php" afterPath="$PROJECT_DIR$/seecretspot/resources/views/dashboard.blade.php" />
-      <change beforePath="$PROJECT_DIR$/seecretspot/resources/views/layout/master.blade.php" afterPath="$PROJECT_DIR$/seecretspot/resources/views/layout/master.blade.php" />
       <change beforePath="$PROJECT_DIR$/seecretspot/routes/web.php" afterPath="$PROJECT_DIR$/seecretspot/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,16 +44,67 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="seecretspot: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="seecretspot@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="seecretspot: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="posts: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018_02_14_104632_create_posts_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seecretspot/database/migrations/2018_02_14_104632_create_posts_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seecretspot/app/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seecretspot/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+              <folding>
+                <element signature="e#23#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seecretspot/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="396">
               <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="e#40#53#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seecretspot/app/Http/Controllers/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
@@ -67,11 +116,35 @@
         <entry file="file://$PROJECT_DIR$/seecretspot/resources/views/dashboard.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="89" lean-forward="false" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
+              <caret line="8" column="104" lean-forward="false" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
               <folding>
-                <marker date="1518604764989" expanded="true" signature="9:24" ph="..." />
-                <marker date="1518604764989" expanded="true" signature="36:45" ph="..." />
+                <marker date="1518609646769" expanded="true" signature="9:24" ph="..." />
+                <marker date="1518609646769" expanded="true" signature="36:45" ph="..." />
+                <marker date="1518609646769" expanded="true" signature="216:236" ph="..." />
+                <marker date="1518609646769" expanded="true" signature="580:598" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="72">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts" pinned="false" current-in-tab="false">
+        <entry file="das://table:/c5c5c543/a510258e-99eb-4c0f-96e6-53d2b3b1c370/seecretspot.posts">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -79,8 +152,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seecretspot/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="450">
+              <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -96,21 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seecretspot/resources/views/layout/master.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-              <folding>
-                <marker date="1518604571717" expanded="true" signature="48:55" ph="..." />
-                <marker date="1518604571717" expanded="true" signature="313:336" ph="..." />
-                <marker date="1518604571717" expanded="true" signature="369:386" ph="..." />
-                <marker date="1518604571717" expanded="true" signature="431:440" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -120,16 +178,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bc4c26ac-716c-425b-a4fb-aeade56cb823/console.sql" />
-        <option value="$PROJECT_DIR$/seecretspot/app/User.php" />
         <option value="$PROJECT_DIR$/seecretspot/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/seecretspot/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/seecretspot/app/Http/Middleware/Authenticate.php" />
         <option value="$PROJECT_DIR$/seecretspot/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/seecretspot/app/Exceptions/Handler.php" />
-        <option value="$PROJECT_DIR$/seecretspot/routes/web.php" />
         <option value="$PROJECT_DIR$/seecretspot/resources/views/layout/master.blade.php" />
         <option value="$PROJECT_DIR$/seecretspot/public/css/main.css" />
+        <option value="$PROJECT_DIR$/seecretspot/database/migrations/2018_02_14_104632_create_posts_table.php" />
+        <option value="$PROJECT_DIR$/seecretspot/app/Post.php" />
+        <option value="$PROJECT_DIR$/seecretspot/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/seecretspot/resources/views/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/seecretspot/routes/web.php" />
+        <option value="$PROJECT_DIR$/seecretspot/app/User.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -239,7 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,64 +309,11 @@
               <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="laravel-seecret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-seecret" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seecretspot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,15 +349,16 @@
       <option name="presentableId" value="Default" />
       <updated>1518526412037</updated>
       <workItem from="1518526413405" duration="10634000" />
-      <workItem from="1518594956226" duration="8186000" />
+      <workItem from="1518594956226" duration="12386000" />
+      <workItem from="1518610992712" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18820000" />
+    <option name="totallyTimeSpent" value="23311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="336" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="336" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15309973" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -383,11 +393,95 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/seecretspot/database/migrations/2018_02_14_104632_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/resources/views/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="104" lean-forward="false" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+          <folding>
+            <marker date="1518609646769" expanded="true" signature="9:24" ph="..." />
+            <marker date="1518609646769" expanded="true" signature="36:45" ph="..." />
+            <marker date="1518609646769" expanded="true" signature="216:236" ph="..." />
+            <marker date="1518609646769" expanded="true" signature="580:598" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c5c5c543/a510258e-99eb-4c0f-96e6-53d2b3b1c370/seecretspot.posts">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seecretspot/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -395,28 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
           <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding>
-            <marker date="1518534968284" expanded="true" signature="9:24" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="36:43" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="79:88" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="98:116" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="213:237" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="265:271" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="472:489" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="645:688" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="737:758" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="928:976" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1035:1061" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1227:1273" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1332:1356" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1510:1528" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1656:1673" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1829:1872" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1921:1942" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="2108:2154" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="2213:2237" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="2391:2409" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seecretspot/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#69#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seecretspot/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -536,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-          <folding>
-            <element signature="e#34#48#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,44 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seecretspot/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seecretspot/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <marker date="1518534968284" expanded="true" signature="9:24" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="36:43" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="79:88" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="98:116" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="213:237" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="265:271" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="472:489" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="645:688" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="737:758" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="928:976" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1035:1061" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1227:1273" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1332:1356" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1510:1528" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1656:1673" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1829:1872" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="1921:1942" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="2108:2154" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="2213:2237" ph="..." />
-            <marker date="1518534968284" expanded="true" signature="2391:2409" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,12 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding>
-            <marker date="1518604571717" expanded="true" signature="48:55" ph="..." />
-            <marker date="1518604571717" expanded="true" signature="313:336" ph="..." />
-            <marker date="1518604571717" expanded="true" signature="369:386" ph="..." />
-            <marker date="1518604571717" expanded="true" signature="431:440" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,24 +651,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seecretspot/resources/views/dashboard.blade.php">
+    <entry file="file://$PROJECT_DIR$/seecretspot/database/migrations/2018_02_14_104632_create_posts_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="89" lean-forward="false" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
-          <folding>
-            <marker date="1518604764989" expanded="true" signature="9:24" ph="..." />
-            <marker date="1518604764989" expanded="true" signature="36:45" ph="..." />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seecretspot/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="396">
           <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/c5c5c543/a510258e-99eb-4c0f-96e6-53d2b3b1c370/seecretspot.posts">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <folding>
+            <element signature="e#23#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seecretspot/resources/views/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="104" lean-forward="false" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+          <folding>
+            <marker date="1518609646769" expanded="true" signature="9:24" ph="..." />
+            <marker date="1518609646769" expanded="true" signature="36:45" ph="..." />
+            <marker date="1518609646769" expanded="true" signature="216:236" ph="..." />
+            <marker date="1518609646769" expanded="true" signature="580:598" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
