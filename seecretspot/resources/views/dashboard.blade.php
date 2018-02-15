@@ -18,7 +18,7 @@
         <div class="col-md-6 offset-md-3">
             <header><h3>What other people say...</h3></header>
             @foreach($posts as $post)
-                <article class="post">
+                <article class="post" data-postid="{{$post->id}}">
                     <p>{{$post->body}}</p>
                     <div class="info">
                         Posted by {{$post->user->first_name}} on {{$post->created_at->diffForHumans()}}
@@ -54,10 +54,15 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" id="modal-save">Save changes</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        var token = '{{Session::token()}}';
+        var url = '{{route('edit')}}';
+    </script>
 @endsection
